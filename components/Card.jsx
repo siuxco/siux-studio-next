@@ -1,5 +1,3 @@
-import { Button } from './Button.jsx'
-
 const styles = {
   card: {
     main: 'background-white display-flex align-items-center cursor-pointer padding-s tablet:padding-m flex-grow-1 border-radius-xs margin-m box-shadow-xs hover:box-shadow-s',
