@@ -2,7 +2,7 @@
   <a href="https://siux.studio">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://i.imgur.com/edZxJHi.png">
-      <img src="https://i.imgur.com/4jqshKx.png#gh-light-mode-only" height="128">
+      <img src="https://i.imgur.com/4jqshKx.png#gh-light-mode-only" width="320">
     </picture>
   </a>
 </p>
