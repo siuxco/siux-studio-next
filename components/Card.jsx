@@ -1,6 +1,6 @@
 const styles = {
   card: {
-    main: 'background-white display-flex align-items-center cursor-pointer padding-s tablet:padding-m flex-grow-1 border-radius-xs margin-m box-shadow-xs hover:box-shadow-s',
+    main: 'background-white display-flex align-items-center justify-content-space-between cursor-pointer padding-s tablet:padding-m flex-grow-1 border-radius-xs margin-s tablet:margin-m box-shadow-xs hover:box-shadow-s',
     title: 'margin-bottom-s color-black font-size-m font-weight-600',
     content: 'margin-top-xs color-neutral-7 line-height-m',
     iconAction: 'icon-system-arrow-right-s-line font-size-xxl margin-left-s color-neutral-3',
@@ -12,7 +12,7 @@ const Card = (props) => {
   return (
     <a href={url}
       className={styles.card.main}
-      style={{ maxWidth: '300px' }}
+      style={{ flexBasis: '300px' }}
     >
       <div>
         <h2 className={styles.card.title}>{title}</h2>
