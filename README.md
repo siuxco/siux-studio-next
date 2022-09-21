@@ -7,30 +7,48 @@
   </a>
 </p>
 
-## Getting Started
+# SIUX Studio + Next.js integration
+This is a boilerplate integration of [SIUX Studio](https://siux.studio) and [Next.js](https://nextjs.org/)
+
+[Live preview on Vercel](https://siux-studio-next-js.vercel.app/)
+
+
+## Getting started
 
 ##### Run the development server
-
 ```bash
 npm run dev
 ```
 
-##### Preview your application
+##### Preview your application in browser
 
-Open [http://localhost:3000](http://localhost:3000) with your browser and start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-##### Define your Brand ID 
 
-Open `pages/_head.js` and replace the default stylesheets with your brand ID stylesheets.
+## Installation
+
+##### Integrate your brand styles by replacing the following lines of code on `pages/_app.js` with your brand settings.
+
+```html
+<link href="https://cdn.siux.studio/static/brand/632213d5a467b1178b31dde0/latest/siux.main.css" type="text/css" rel="stylesheet">
+<link href="https://cdn.siux.studio/static/brand/632213d5a467b1178b31dde0/latest/siux.main.responsive.css" type="text/css" rel="stylesheet">
+```
+
+## Development
+
+Edit the page by modifying `pages/index.js`. The page auto-updates as you edit the file. The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/) from the creators of [Next.js](https://nextjs.org/).
 
 ## API Routes
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages. This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```bash
+http://localhost:3000/api/hello
+```
 
-## Deploy on Vercel
+## Deploy to Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=siux-studio&utm_campaign=siux-studio) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+##### Preview application in browser
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsiuxco%2Fsiux-studio-next-js)
