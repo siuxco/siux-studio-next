@@ -30,7 +30,7 @@ http://localhost:3000
 
 ## Installation
 
-##### Integrate your brand styles by replacing the following lines of code on `pages/_app.js` with your brand settings.
+Integrate your brand styles by replacing the following lines of code on `pages/_app.js` with your brand settings.
 
 ```html
 <link href="https://cdn.siux.studio/static/brand/632213d5a467b1178b31dde0/latest/siux.main.css" type="text/css" rel="stylesheet">
