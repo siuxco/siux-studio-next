@@ -10,7 +10,7 @@
 # SIUX Studio + Next.js integration
 This is a boilerplate integration of [SIUX Studio](https://siux.studio) and [Next.js](https://nextjs.org/)
 
-[Live preview on Vercel](https://siux-studio-next-js.vercel.app/)
+[Live preview on Vercel](https://siux-studio-next.vercel.app/)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsiuxco%2Fsiux-studio-next)
 
