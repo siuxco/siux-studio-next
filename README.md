@@ -12,7 +12,7 @@ This is a boilerplate integration of [SIUX Studio](https://siux.studio) and [Nex
 
 [Live preview on Vercel](https://siux-studio-next-js.vercel.app/)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsiuxco%2Fsiux-studio-next-js)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsiuxco%2Fsiux-studio-next)
 
 ## Getting started
 
@@ -52,4 +52,4 @@ http://localhost:3000/api/hello
 ## Deploy to Vercel
 
 ##### Preview application in browser
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsiuxco%2Fsiux-studio-next-js)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsiuxco%2Fsiux-studio-next)
