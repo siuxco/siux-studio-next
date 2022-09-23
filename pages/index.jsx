@@ -3,9 +3,9 @@ import { Card } from '../components/Card.jsx'
 import { IndexContent } from '../utils/links.js'
 
 const styles = {
-  container: 'padding-left-s padding-right-s',
-  grid: 'container-desktop display-flex align-items-center justify-content-center flex-wrap',
-  main: 'display-flex flex-direction-column justifiy-content-center align-items-center padding-top-xxl padding-bottom-xxl',
+  container: 'padding-left-s padding-right-s container-desktop',
+  grid: 'display-flex flex-wrap',
+  main: 'display-flex flex-direction-column justifiy-content-center align-items-center padding-top-xxl padding-bottom-m',
   title: 'display-flex align-items-center text-align-center color-neutral-7 font-size-xl',
   subtitle: 'color-black font-size-m font-weight-600 margin-top-m margin-left-s tablet:margin-left-m',
   description: 'text-align-center margin-top-m margin-bottom-m line-height-l font-size-s',
