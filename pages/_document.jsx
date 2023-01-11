@@ -4,7 +4,6 @@ export default function Document() {
   return (
     <Html>
       <Head>
-        <title>SIUX Studio + Next.js Integration</title>
         {/* Replace with your brand configuration */}
         <link
           href="https://cdn.siux.studio/static/brand/632213d5a467b1178b31dde0/latest/siux.main.css"
@@ -21,9 +20,6 @@ export default function Document() {
           type="text/css"
           rel="stylesheet"
         />
-
-        <meta name="description" content="SIUX Studio + Next.js Integration" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <body>
         <Main />
